@@ -20,12 +20,15 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import goldenLogo from '../assets/goldenLogo.png';
+
 
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
   bg,
   chef,
   G,
+  goldenLogo,
   gallery01,
   gallery02,
   gallery03,
