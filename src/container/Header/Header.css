@@ -1,5 +1,7 @@
 .app__header {
   background-color: var(--color-black);
+  /* padding: 0 4rem 0 0; */
+  /* width: 100%; */
 }
 .app__header-h1 {
   font-family: var(--font-base);
@@ -11,4 +13,23 @@
 }
 .app__header-img img {
   width: 80%;
+}
+.app__header-hashtag{
+  display: flex;
+  flex-direction: row;
+  /* opacity: 0.7; */
+  margin-right: 4rem;
+  
+}
+.p__rotate {
+  transform: rotate(-90deg);
+  color: #ffffff;
+  gap: 1rem;
+  
+}
+
+@media screen and (max-width: 850px){
+  .app__header-hashtag{
+    display: none;
+  }
 }
